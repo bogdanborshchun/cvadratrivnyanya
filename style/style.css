@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: wheat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  height: 50vh;
+}
+
+.kofA,
+.kofB,
+.kofC {
+  margin-bottom: 5px;
+  height: 5vh;
+}
